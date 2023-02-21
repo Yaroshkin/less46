@@ -1,0 +1,16 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #bfe2e9;
+}
+header {
+    color: #6a1a21;
+}
+
+footer{
+    color: black;
+    box-sizing: border-box;
+    font-family: "Candara Light";
+    font-size: x-small;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block body %}
+    {% include 'header.html' %}
+    <main>
+<h1 class="text-center">{{ head1 }}</h1>
+        <ul>
+            <div><a href="temperature" onclick="">Температура воздуха</a></div>
+            <div><a href="hum" onclick="">Влажность</a></div>
+            <div><a href="meter" onclick="">Показания счетчика</a></div>
+            <div><a href="boiler" onclick="">Состояние бойлера</a></div>
+        </ul>
+
+        <h2 class="text-center">{{ hello }}</h2>
+        <div class="qwe" id=""></div>
+</main>
+    {% include 'footer.html' %}
+{% endblock %}
